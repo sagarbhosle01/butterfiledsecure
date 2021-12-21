@@ -1,0 +1,21 @@
+server:
+  port: 9092
+
+ 
+
+security:
+  oauth2:
+    client:
+      clientId: aab29efb758848c4a8add83b8ad10c5b
+      clientSecret: 725dda68-b596-4486-b148-0cd7155fbc15
+      accessTokenUri: https://identity.oraclecloud.com/oauth/acess_token
+      userAuthorizationUri: https://idcs-b80e58dd82ca4a6aa97d8c0480b456ca.identity.oraclecloud.com/oauth2/v1/authorize
+      tokenName: oauth_token
+      scope: openid
+     
+      
+    resource:
+      userInfoUri: https://identity.oraclecloud.com/userinfo/me
+      token-type: code
+      
+ 
